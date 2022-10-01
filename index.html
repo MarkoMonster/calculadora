@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Día 05 - Calculadora - JS - DOM</title>
+    <link rel="stylesheet" href="./calculadora.css">
+</head>
+<body>
+    <h1>Calculdora</h1>
+    <div class="calculadora">
+        <span id="pantalla"></span>
+        <div class="teclas">
+            <div class="fila">
+                <button type="button" class="digito" id="num7" value="7">7</button>
+                <button type="button" class="digito" id="num8" value="8">8</button>
+                <button type="button" class="digito" id="num9" value="9">9</button>
+    
+                <button type="button" class="digito" id="num4" value="4">4</button>
+                <button type="button" class="digito" id="num5" value="5">5</button>
+                <button type="button" class="digito" id="num6" value="6">6</button>
+    
+                <button type="button" class="digito" id="num1" value="1">1</button>
+                <button type="button" class="digito" id="num2" value="2">2</button>
+                <button type="button" class="digito" id="num3" value="3">3</button>
+    
+                <button type="button" class="digito" id="resetear">AC</button>
+                <button type="button" class="digito" id="num0" value="0">0</button>
+                <button type="button" class="digito" id="separador" value=".">.</button>
+                
+            </div>
+            <div class="operaciones">
+                <button type="button" class="operacion" id="dividir" value="/">/</button>
+                <button type="button" class="operacion" id="multiplicar" value="x">*</button>
+                <button type="button" class="operacion" id="sumar" value="+">+</button>
+                <button type="button" class="operacion" id="restar" value="-">-</button>
+            </div>
+        </div>
+        <button type="button" class="resolver" id="resolver" value="=">=</button>
+    </div>
+    <p class="footer">Desarrollado por <strong class="autor"> Marco Monster</strong>. Práctica <span class="devf">DEV.F</span></p>
+    
+     <script src="./calculadora.js"></script>
+</body>
+</html>
